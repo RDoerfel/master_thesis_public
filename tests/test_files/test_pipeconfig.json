@@ -2,7 +2,7 @@
     "pipeline": {
         "preproc": {
             "steps": {
-                "step1": {
+                "colselector": {
                     "object": "SelectCols",
                     "kwargs": {
                         "keep": "[1]"
