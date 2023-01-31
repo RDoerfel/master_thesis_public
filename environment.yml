@@ -1,0 +1,9 @@
+name: master_thesis
+channels:
+  - conda-forge
+dependencies:
+  - python=3.9.12 
+  - pip==22.3.1
+pip:
+  - -e git+https://github.com/RDoerfel/pubmed-search#egg=pmsearch   
+prefix: C:\Anaconda3\envs\master_thesis
